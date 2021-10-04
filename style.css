@@ -687,7 +687,7 @@ left: -1px;
         display: block;
     }
     .cat-img{
-        margin: 20px 0;
+        margin: 40px 0;
     }
     .content.right{
         margin-left: 0 !important;
@@ -709,6 +709,9 @@ left: -1px;
     }
     .top-content{
         padding-top: 80px;
+    }
+    .input-group{
+        width: 100%;
     }
 }
 
