@@ -450,3 +450,22 @@ a.related-prod:hover{
 .related-prod p{
     cursor: pointer;
 }
+
+@media only screen and (max-width: 768px){
+    .grid.product{
+        display: block !important;
+    }
+    .image-list{
+        display: none;
+    }
+    .product-image{
+        display: block;
+    }
+    .product-details{
+        margin-left: 0 !important;
+        margin-top: 40px;
+    }
+    .description{
+        max-height: none;
+    }
+}
