@@ -467,5 +467,6 @@ a.related-prod:hover{
     }
     .description{
         max-height: none;
+        height: none;
     }
 }
