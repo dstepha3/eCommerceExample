@@ -708,21 +708,24 @@ left: -1px;
         margin-bottom: 20px;
     }
     .top-content{
-        padding-top: 80px;
+        padding-top: 80px !important;
     }
     .input-group{
-        width: 100%;
+        width: 100% !important;
     }
     .small_desc h3{
-        font-size: 2em;
+        font-size: 2em !important;
     }
     .small_desc {
-        margin-left: 0;
+        margin-left: 0 !important;
     }
     .action a.button{
-        width: unset;
-        top: 0;
-        bottom: -15px;
+        width: unset !important;
+        top: unset !important;
+        bottom: -15px !important;
+    }
+    div.container:nth-child(9){
+        margin-top: 840px !important;
     }
 }
 
