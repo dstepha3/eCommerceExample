@@ -679,7 +679,36 @@ left: -1px;
 }
 
 
-
-
-/* PRODUCT PAGE */
+@media only screen and (max-width: 768px) {
+    #carousel {
+        display: none;
+    }
+    .flex{
+        display: block;
+    }
+    .cat-img{
+        margin: 20px 0;
+    }
+    .content.right{
+        margin-left: 0 !important;
+    }
+    .content.left{
+        margin-right: 0 !important;
+    }
+    div.full-width:nth-child(8){
+        display: none;
+    }
+    .left {
+        margin-top: 60px;
+    }
+    .right img{
+        margin-top: 20px;
+    }
+    .left img{
+        margin-bottom: 20px;
+    }
+    .top-content{
+        padding-top: 80px;
+    }
+}
 
