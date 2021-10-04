@@ -469,4 +469,7 @@ a.related-prod:hover{
         max-height: none;
         height: none;
     }
+    .grid .related-products{
+        display: block !important; 
+    }
 }
