@@ -713,5 +713,16 @@ left: -1px;
     .input-group{
         width: 100%;
     }
+    .small_desc h3{
+        font-size: 2em;
+    }
+    .small_desc {
+        margin-left: 0;
+    }
+    .action a.button{
+        width: unset;
+        top: 0;
+        bottom: -15px;
+    }
 }
 
