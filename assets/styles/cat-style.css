@@ -1,0 +1,28 @@
+.container{
+    margin: auto;
+    padding: 0 1rem;
+    max-width: 90rem;
+    width: 100%;
+}
+.grid.second-nav > [class*="column-"] {
+    padding: 0.5rem 1rem;
+}
+a{
+    color: #888;
+    text-decoration: none;
+    transition: all 0.2s ease;
+}
+.featured-image img{
+    height: 300px;
+    object-fit: cover;
+    object-position: center center;
+}
+.card-header{
+    background-color: rgba(245,233,177,0.5);
+}
+.list-group-item.active{
+    background-color: rgba(243, 199, 24, 0.5);
+    border-top: rgba(243, 199, 24, 0.5);
+    border-bottom: rgba(243, 199, 24, 0.5);
+    color: #000000;
+}
