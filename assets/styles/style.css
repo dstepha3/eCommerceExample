@@ -69,6 +69,32 @@ a.logo:hover{
     top: 0;
     width: 100%;
 }
+@media (max-width:768px){
+    .bg-dark{
+        background: linear-gradient(180deg, rgba(0,0,0,1) 22%, rgba(245,233,177,1) 100%) !important;
+        display: flex;
+        flex-direction: column;
+    }
+    .navbar-toggler{
+        margin-top: 20px;
+    }
+    .navbar .logo{
+        margin-top: 20px;
+    }
+    .navbar .dropdown-toggle::after{
+        position: absolute;
+        bottom: 3px;
+        left: 40px;
+    }
+    .navbar #navbarText {
+        margin-left: 0;
+        margin-top: 20px;
+        text-align: center;
+    }
+    .navbar #navbarText li{
+        margin-bottom: 10px;
+    }
+}
 
 body{
     background: rgb(255,255,255);

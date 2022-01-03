@@ -18,11 +18,94 @@ a{
     object-position: center center;
 }
 .card-header{
-    background-color: rgba(245,233,177,0.5);
+    background-color: rgba(245,233,177,0.9);
 }
-.list-group-item.active{
-    background-color: rgba(243, 199, 24, 0.5);
-    border-top: rgba(243, 199, 24, 0.5);
-    border-bottom: rgba(243, 199, 24, 0.5);
+.list-group-item:hover{
+    background-color: rgba(245,233,124,0.3);
+}
+.list-group-item.active,
+.list-ground-item.active:hover{
+    background-color: rgba(245,233,124,1);
+    border-top: rgba(245,233,124,1);
+    border-bottom: rgba(245,233,124,1);
     color: #000000;
+    opacity: 1;
+}
+.card-footer{
+    background-color: rgba(245,233,177,0.9);
+}
+.card-footer .btn{
+    background-color: rgba(245,233,177,0.5);
+    border: 1px solid rgba(245,233,177,0.5);
+    color: #000000;
+}
+.card.border-0,
+.m-0.h6{
+    cursor: pointer;
+}
+#filter_price.card-body{
+    cursor: default;
+}
+.page-link{
+    color: #000;
+}
+.disabled .page-link{
+    color: #888;
+}
+.shipping-info{
+    margin-top: 80px;
+}
+.shipping-info .col-md-3{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.shipping-info .col-md-3 div{
+    display: flex;
+    align-items: center;
+}
+.shipping-info .h6{
+    margin-bottom: 0;
+    margin-left: 10px;
+}
+.products a.h6{
+    font-family: "Unica One", sans-serif;
+    text-transform: uppercase;
+    font-size: 1.3rem;
+    color: #000;
+    cursor: pointer;
+}
+.products img:hover{
+    transform: scale(1.1);
+    transition: all 0.3s;
+}
+.products .card > a:first-child{
+    overflow: hidden;
+}
+.products .card > a:first-child:hover{
+    opacity: 1;
+}
+.card-body .ratings{
+    margin-bottom: 10px;
+    margin-top: 10px;
+    cursor: pointer;
+}
+.products .card-body .h5{
+    font-family: "Unica One", sans-serif;
+    font-size: 1.75rem;
+}
+.card-bottom{
+    display: flex;
+    justify-content: space-between;
+    padding: 5px 10px;
+}
+.btn-group-vertical > .btn, .btn-group > .btn{
+    flex: unset;
+}
+.card-header .input-group-prepend .input-group-text{
+    background-color: #6c757d !important;
+    border-color: #6c757d;
+    color: #fff;
+    font-family: "Unica One", sans-serif;
+    text-transform: uppercase;
 }
