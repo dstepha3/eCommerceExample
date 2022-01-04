@@ -12,11 +12,6 @@ a{
     text-decoration: none;
     transition: all 0.2s ease;
 }
-.featured-image img{
-    height: 300px;
-    object-fit: cover;
-    object-position: center center;
-}
 .card-header{
     background-color: rgba(245,233,177,0.9);
 }

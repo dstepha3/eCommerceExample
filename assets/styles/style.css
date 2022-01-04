@@ -716,74 +716,79 @@ left: -4px;
     padding: 0;
     margin: 1rem 0 0 0;
     list-style: none;
-    }
-    
-    .breadcrumb-list li {
+}
+
+.breadcrumb-list li {
     font-size: 0.85rem;
     letter-spacing: 0.125rem;
     text-transform: uppercase;
-    }
-    
-    .breadcrumb-item.active {
+}
+
+.breadcrumb-item.active {
     color: #333;
     font-weight: 700;
-    }
-    .breadcrumb-item a{
-        font-weight: normal;
-    }
-    
-    .breadcrumb-item + .breadcrumb-item::before {
+}
+.breadcrumb-item a{
+    font-weight: normal;
+}
+
+.breadcrumb-item + .breadcrumb-item::before {
     content: '/';
     display: inline-block;
     padding: 0 0.5rem;
     color: #d5d5d5;
-    }
+}
 
-    .bottom-content .top-content{
-        background-color: rgba(245,233,177,0.75);
-        padding: 60px;
-    }
-    .bottom-content .top-content h2{
-        margin-bottom: 5px;
-    }
-    .bottom-content .top-content hr{
-        border-top: 1px solid #000000;
-        width: 150px;
-        margin: 0 auto 15px;
-    }
-    .bottom-content .top-content > p:last-child{
-        margin-bottom: 0;
-    }
-    .bottom-content .standard-section,
-    .bottom-content .faq-section{
-        margin: 60px 0;
-    }
-    .bottom-content .standard-section h2,
-    .bottom-content .standard-section h3{
-        margin-top: 30px;
-    }
-    .bottom-content .standard-section > h2:first,
-    .bottom-content .content > p:last-child{
-        margin-top: 0;
-    }
-    .bottom-content .content{
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-    }
-    .bottom-content .accordion{
-        margin-top: 35px;
-    }
-    .bottom-content .accordion .btn{
-        font-size: 24px;
-        color: black;
-    }
-    .bottom-content .accordion .card-body{
-        margin: 20px 30px;
-    }
-    .bottom-content .accordion .card-header{
-        background-color: rgba(245,233,177,0.5);
-    }
+.bottom-content .top-content{
+    background-color: rgba(245,233,177,0.75);
+    padding: 60px;
+}
+.bottom-content .top-content h2{
+    margin-bottom: 5px;
+}
+.bottom-content .top-content hr{
+    border-top: 1px solid #000000;
+    width: 150px;
+    margin: 0 auto 15px;
+}
+.bottom-content .top-content > p:last-child{
+    margin-bottom: 0;
+}
+.bottom-content .standard-section,
+.bottom-content .faq-section{
+    margin: 60px 0;
+}
+.bottom-content .standard-section h2,
+.bottom-content .standard-section h3{
+    margin-top: 30px;
+}
+.bottom-content .standard-section > h2:first,
+.bottom-content .content > p:last-child{
+    margin-top: 0;
+}
+.bottom-content .content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.bottom-content .accordion{
+    margin-top: 35px;
+}
+.bottom-content .accordion .btn{
+    font-size: 24px;
+    color: black;
+}
+.bottom-content .accordion .card-body{
+    margin: 20px 30px;
+}
+.bottom-content .accordion .card-header{
+    background-color: rgba(245,233,177,0.5);
+}
+.featured-image img{
+    height: 300px;
+    object-fit: cover;
+    object-position: center center;
+}
 
 
 @media only screen and (max-width: 768px) {
