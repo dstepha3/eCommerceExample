@@ -44,3 +44,14 @@
 .accordion .card-header{
     background-color: rgba(245,233,177,0.5);
 }
+
+@media only screen and (max-width: 768px) {
+    .container{
+        padding: 0 5% !important;
+    }
+    .blog-content .top-content{
+        padding: 30px;
+        padding-top: 50px !important;
+        padding-bottom: 50px;
+    }
+}
